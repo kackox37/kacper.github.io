@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+}
+body {backround-color: grey;
+}
+#wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+}
+header img {
+    width:100%;
+    display: block;
+}
+
+nav {
+    background-color: darkcyan;
+}
+nav a {}
+a.menu {
+    display: inline-block;
+    width: 24%;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+a.menu:hover {
+    backround-color: crimson;
+    font-size:20px;
+}
+.active {
+    backround-color: crimson;
+}
+article {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+article h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 10% 20px 10%;
+    padding-bottom: 15px;
+    border-bottom: 2px solid crimson;
+}
+img.left {
+    float:left;
+    padding: 10px;
+    width: 30%;
+    border-radius: 50% 30%;
+}
+
+article p {
+    text-align: justify;
+    line-height: 25px;
+    font-size: 18px;
+}
+footer {
+    height: 40px;
+    color: white;
+    line-height: 40px;
+}
+article h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 10% 20px 10%;
+    padding-bottom: 15px;
+    border-bottom: 2px solid crimson;
+}
+article h3 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 10% 20px 10%;
+    padding-bottom: 15px;
+    border-bottom: 2px solid crimson;
+}
+article h4 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 10% 20px 10%;
+    padding-bottom: 15px;
+    border-bottom: 2px solid crimson;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
